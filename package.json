@@ -1,0 +1,39 @@
+{
+  "name": "vdr-builder",
+  "version": "1.0.0",
+  "standard": {
+    "globals": [
+      "transformedObject",
+      "originalObject",
+      "done",
+      "fromVendor",
+      "configuration",
+      "request_body",
+      "request_expression",
+      "request_headers",
+      "request_parameters",
+      "request_path",
+      "request_path_variables",
+      "request_vendor_body",
+      "request_vendor_headers",
+      "request_vendor_parameters",
+      "response_body",
+      "request_headers",
+      "request_method",
+      "object_name",
+      "request_body_map",
+      "isWhere",
+      "CE",
+      "request_vendor_path",
+      "response_iserror",
+      "request_vendor_body_map"
+    ]
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "standard": "^14.3.1"
+  }
+}
